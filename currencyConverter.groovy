@@ -7,7 +7,7 @@ boolean finished = false;
 while (!finished) {
     println "";
     println "What would you like to do?";
-    println "   1 - Exchange Pounds into Euro";
+    println "   1 - Exchange Pounds into Eghfjdkuro";
     println "   2 - Exchange Euro into Pounds";
     println "   0 - Exit the program";
     println "";
