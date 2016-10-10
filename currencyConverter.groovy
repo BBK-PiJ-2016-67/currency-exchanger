@@ -7,8 +7,8 @@ boolean finished = false;
 while (!finished) {
     println "";
     println "What would you like to do?";
-    println "   1 - Exchange pounds into euro";
-    println "   2 - Exchange euro into pounds";
+    println "   1 - Exchange Pounds into Euro";
+    println "   2 - Exchange Euro into Pounds";
     println "   0 - Exit the program";
     println "";
     print   "> ";
@@ -18,7 +18,7 @@ while (!finished) {
 	  print "How many pounds would you like to convert? ";
 	  double pounds = Double.parseDouble(System.console().readLine());
 	  double euro   = pounds * euroOverPoundRatio;
-	  println "£" + pounds + " will give you " + euro + "€";
+	  println "£" + pounds + " will give you " + euro + "€" + " (i.e., less than a week ago)";
 	  break;
     case 2: 
 	  print "How many euro would you like to convert? ";
