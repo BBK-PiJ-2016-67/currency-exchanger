@@ -8,7 +8,7 @@ while (!finished) {
     println "";
     println "What would you like to do?";
     println "   1 - Exchange Pounds into Eghfjdkuro";
-    println "   2 - Exchange Euro into Pounds";
+    println "   2 - Exchange Euro into POTATOES";
     println "   0 - Exit the program";
     println "";
     print   "> ";
